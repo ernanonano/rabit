@@ -36,6 +36,11 @@
 #define fopen64 std::fopen
 #endif
 
+#ifndef fopen64
+#define off64_t off_t
+#define fopen64 std::fopen
+#endif
+
 extern "C" {
 #include <sys/types.h>
 }

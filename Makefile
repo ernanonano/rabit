@@ -2,9 +2,9 @@ ifndef CXX
 export CXX = g++
 endif
 export MPICXX = mpicxx
-export LDFLAGS= -Llib -lrt
+export LDFLAGS= -Llib
 export WARNFLAGS= -Wall -Wextra -Wno-unused-parameter -Wno-unknown-pragmas -std=c++0x
-export CFLAGS = -O3 -msse2 $(WARNFLAGS)
+export CFLAGS = -O3 $(WARNFLAGS)
 
 ifndef WITH_FPIC
 	WITH_FPIC = 1

@@ -21,7 +21,7 @@
 #endif
 
 /*! \brief rabit unsigned long type */
-typedef unsigned long rbt_ulong;  // NOLINT(*)
+typedef unsigned long long rbt_ulong;  // NOLINT(*)
 
 /*!
  * \brief intialize the rabit module,
